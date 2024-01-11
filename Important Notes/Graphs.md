@@ -37,7 +37,7 @@
       - Why exactly (N - 1) iterations?</br>
       Ans: Since, in a graph of N nodes, in worst case, you will take N-1 edges to reach from the first to the last, thereby we iterate for N-1 iterations.
 
-      - How to detect -ve cycle?__
+      - How to detect -ve cycle?</br>
       Ans: If in the Nth iteration, relaxation is done and values are updated (because we have proved at max N-1 iterations are needed) then, negative cycle exists. 
 
 
