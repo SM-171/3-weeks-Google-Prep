@@ -28,7 +28,7 @@
 
 2) Bellman Ford Algorithm
       - Relax all edges **(N - 1) times**, N is number of nodes,  sequentially.__
-        **RELAXATION:**__
+        **RELAXATION:**</br>
         ```
         if(dist[u] + wt < dist[v]) {
             dist[v] = dist[u] + wt;
