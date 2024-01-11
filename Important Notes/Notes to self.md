@@ -7,5 +7,5 @@
 
 3) Practice writing code and dry run on Google Doc
 
-4) [Complete guide for GNL Round](https://www.careerflow.ai/blog/google-behavioural-interview-guide)
+4) [Complete guide for GNL Round](https://www.careerflow.ai/blog/google-behavioural-interview-guide)__
 NOTE: Very important to go through the preparation material shared by the recruiter.
