@@ -11,14 +11,13 @@ A **valid BST** is defined as follows:
 - The right subtree of a node contains only nodes with keys greater than the node's key.
 - Both the left and right subtrees must also be binary search trees.
 
-1) By convention, we do not consider any case of duplication.__
-NOTE: Ask as a follow-up question "if duplicates are allowed".
-If duplicates are allowed, we can use freq map [node, freq].
+1) By convention, we do not consider any case of duplication.</br>
+NOTE: Ask as a follow-up question "if duplicates are allowed". If duplicates are allowed, we can use freq map [node, freq].
 
 2) Why we need BST?
 - Generally the height of a BST is **O(logN) {base = 2}**. Thus, searching for any number in a BST will have a TC of **O(logN)** while, in a linear data structure or skew binary tree it will be **O(N)**.
 
-3) For searching any node in a BST is **O(h)**.__
+3) For searching any node in a BST is **O(h)**.
 - CASE 1: **h = logN** (Avg T.C.)
 - CASE 2: For a skew BST, **h = N** (Worst case T.C.)
 
@@ -34,8 +33,8 @@ If duplicates are allowed, we can use freq map [node, freq].
 
 3) [Amount of time for BT to be infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)
 
-4) [Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)__
-NOTE: Variation for BST - [Maximum Path Sum BST](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)
+4) [Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+    - NOTE: Variation for BST - [Maximum Path Sum BST](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)
     - Good question to revise recursion in BTs
 
 5) [BT to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
