@@ -27,14 +27,14 @@
       - Set: More focus to clear how data structure works
 
 2) Bellman Ford Algorithm
-      - Relax all edges **(N - 1) times**, N is number of nodes,  sequentially.__
-        **RELAXATION:**</br>
+      - Relax all edges **(N - 1) times**, N is number of nodes,  sequentially.</br>
+        **RELAXATION:**
         ```
         if(dist[u] + wt < dist[v]) {
             dist[v] = dist[u] + wt;
         }
         ```
-      - Why exactly (N - 1) iterations?__
+      - Why exactly (N - 1) iterations?</br>
       Ans: Since, in a graph of N nodes, in worst case, you will take N-1 edges to reach from the first to the last, thereby we iterate for N-1 iterations.
 
       - How to detect -ve cycle?__
